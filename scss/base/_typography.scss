@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: $heading-text-color;  
+}
+
+h1 {
+    @include text-format(32, 40, 600);
+    letter-spacing: toRem(-0.52);
+    
+}
+
+h2 {
+    @include text-format(28, 35, 600);
+    letter-spacing: toRem(-0.46);
+}
+
+h3 {
+    @include text-format(24, 30, 600);
+    letter-spacing: toRem(-0.39);
+}
+
+p {
+    @include text-format(16, 26, 400);
+    letter-spacing: toRem(0.12);
+    color: $primary-text-color;
+}
+
+a {
+    @include text-format(18, 30, 600);
+    letter-spacing: toRem(0.14);
+    text-decoration: none;
+    color: inherit;
+}

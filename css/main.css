@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,5 +51,52 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #4c545d;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.0325rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 2.1875rem;
+  font-weight: 600;
+  letter-spacing: -0.02875rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+  letter-spacing: -0.02438rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  letter-spacing: 0.0075rem;
+  color: #9fabb2;
+}
+
+a {
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  font-weight: 600;
+  letter-spacing: 0.00875rem;
+  text-decoration: none;
+  color: inherit;
 }
 /*# sourceMappingURL=main.css.map */
