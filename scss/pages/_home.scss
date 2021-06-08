@@ -4,6 +4,7 @@
     &--one {
         h2 {
             margin-top: toRem(54);
+
         }
 
         p {
@@ -17,6 +18,17 @@
            background-image: url('../images/image-computer.png');
            background-size: cover;
            background-repeat: no-repeat;
+
+           @include media-lg {
+               margin: 0;
+               width: toRem(752);
+               height: toRem(572);
+               background-position: toRem(-100);
+           }
+
+           @include media-xl {
+               background-position: center;
+           }
         }
     }
 

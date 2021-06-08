@@ -217,8 +217,7 @@ header .img-cont {
 @media screen and (min-width: 600px) {
   header .img-cont {
     height: 22.6875rem;
-    background-image: url("../images/bg-header-desktop.png");
-    background-size: contain;
+    background-size: cover;
   }
 }
 
@@ -284,6 +283,66 @@ footer .social .icon:hover {
   fill: #26baa4;
 }
 
+@media screen and (min-width: 600px) {
+  .grid--2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 'A B' 'C D';
+    align-items: center;
+  }
+  .grid--2--a {
+    grid-area: A;
+  }
+  .grid--2--b {
+    grid-area: B;
+  }
+  .grid--2--c {
+    grid-area: C;
+  }
+  .grid--2--d {
+    grid-area: D;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid {
+    position: relative;
+  }
+  .grid--2 {
+    grid-template-areas: 'A .' 'A B' 'A C' 'A D' 'A .';
+    column-gap: 6.875rem;
+  }
+  .grid--2 h3 {
+    margin: 0;
+    max-width: 21.875rem;
+    text-align: left;
+  }
+  .grid--2 p {
+    margin: 1rem 0;
+    text-align: left;
+    max-width: 21.875rem;
+  }
+  .grid--2--a {
+    grid-area: A;
+  }
+  .grid--2--b {
+    grid-area: B;
+  }
+  .grid--2--c {
+    grid-area: C;
+  }
+  .grid--2--d {
+    grid-area: D;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .grid--2 {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+}
+
 .home {
   margin-top: 6.625rem;
 }
@@ -303,6 +362,21 @@ footer .social .icon:hover {
   background-image: url("../images/image-computer.png");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 1200px) {
+  .home--one .img {
+    margin: 0;
+    width: 47rem;
+    height: 35.75rem;
+    background-position: -6.25rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .home--one .img {
+    background-position: center;
+  }
 }
 
 .home--two {

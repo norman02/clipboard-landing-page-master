@@ -12,8 +12,7 @@ header {
 
         @include media-md {
             height: toRem(363);
-            background-image: url('../images/bg-header-desktop.png');
-            background-size: contain;
+            background-size: cover;
         }
     }
 
