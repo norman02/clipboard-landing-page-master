@@ -49,12 +49,17 @@ p {
     letter-spacing: toRem(0.12);
     color: $primary-text-color;
 
+    @include media-md {
+        max-width: toRem(400);
+        margin-right: auto;
+        margin-left: auto
+    }
+
     @include media-lg {
         @include text-format(20, 30, 400);
         letter-spacing: toRem(0.15);
         max-width: toRem(730);
-        margin-right: auto;
-        margin-left: auto
+        
     }
 }
 

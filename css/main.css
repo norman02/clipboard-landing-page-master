@@ -120,6 +120,14 @@ p {
   color: #9fabb2;
 }
 
+@media screen and (min-width: 600px) {
+  p {
+    max-width: 25rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   p {
     font-size: 1.25rem;
@@ -127,8 +135,6 @@ p {
     font-weight: 400;
     letter-spacing: 0.00937rem;
     max-width: 45.625rem;
-    margin-right: auto;
-    margin-left: auto;
   }
 }
 
