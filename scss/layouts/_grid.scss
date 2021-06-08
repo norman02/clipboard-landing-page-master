@@ -70,5 +70,26 @@
         }
 
     }
+
+    &--6 {
+
+        @include media-md {
+            padding-top: toRem(44);
+            display: grid;
+            align-items: initial;
+            justify-content: space-evenly;
+            grid-template-columns: auto auto auto;
+            text-align: left;
+        }
+        
+
+        ul {
+            @include media-md{
+                display: grid;
+                grid-template-columns: auto auto auto;
+                column-gap: toRem(30);
+            }
+        }
+    }
   
 }

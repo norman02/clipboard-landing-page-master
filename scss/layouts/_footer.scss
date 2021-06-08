@@ -6,13 +6,25 @@ footer {
     .logo {
         margin-top: toRem(52);
         width: toRem(55);
+
+        @include media-md{
+            margin: 0;
+        }
     }
 
     ul {
         margin-top: toRem(40);
 
+        @include media-md {
+            margin: 0;
+        }
+
         li {
             margin-bottom: toRem(27);
+            
+            @include media-md {
+                margin: 0;
+            }
 
             a {
                 @include text-format(18, 30, 400);
@@ -28,8 +40,9 @@ footer {
 
     .social {
         display: flex;
+        align-items: center;
         justify-content: space-between;
-        max-width: toRem(160);
+        width: toRem(160);
         margin: toRem(57.25) auto 0 auto;
 
         .icon {

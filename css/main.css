@@ -257,12 +257,30 @@ footer .logo {
   width: 3.4375rem;
 }
 
+@media screen and (min-width: 600px) {
+  footer .logo {
+    margin: 0;
+  }
+}
+
 footer ul {
   margin-top: 2.5rem;
 }
 
+@media screen and (min-width: 600px) {
+  footer ul {
+    margin: 0;
+  }
+}
+
 footer ul li {
   margin-bottom: 1.6875rem;
+}
+
+@media screen and (min-width: 600px) {
+  footer ul li {
+    margin: 0;
+  }
 }
 
 footer ul li a {
@@ -279,8 +297,9 @@ footer ul li a:hover {
 
 footer .social {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  max-width: 10rem;
+  width: 10rem;
   margin: 3.57812rem auto 0 auto;
 }
 
@@ -360,6 +379,25 @@ footer .social .icon:hover {
 @media screen and (min-width: 1200px) {
   .grid--4 {
     grid-template-columns: auto auto auto auto auto;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .grid--6 {
+    padding-top: 2.75rem;
+    display: grid;
+    align-items: initial;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .grid--6 ul {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1.875rem;
   }
 }
 
