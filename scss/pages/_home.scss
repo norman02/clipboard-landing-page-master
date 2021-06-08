@@ -1,0 +1,65 @@
+.home {
+    margin-top: toRem(106);
+
+    &--one {
+        h2 {
+            margin-top: toRem(54);
+        }
+
+        p {
+            margin-bottom: toRem(71);
+        }
+
+        .img {
+           margin: 0 auto toRem(56) auto; 
+           width: toRem(312);
+           height: toRem(238);
+           background-image: url('../images/image-computer.png');
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+    }
+
+    &--two {
+        margin-top: toRem(192);
+
+        .img {
+            margin: toRem(70.72) auto toRem(130.72) auto;
+            width: toRem(310.83);
+            height: toRem(182);
+            background-image: url('../images/image-devices.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    &--three {
+        .cards {
+            margin-top: toRem(108.86);
+
+            .card {
+                margin-bottom: toRem(62);
+            }
+        }
+    }
+
+    &--four {
+        margin-top: toRem(76);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin:0 auto toRem(56) auto;
+        }
+    }
+
+    &--five {
+        margin-top: toRem(114);
+        
+        p {
+           margin-bottom: toRem(52); 
+        }
+    }
+}

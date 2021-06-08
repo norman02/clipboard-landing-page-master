@@ -32,6 +32,7 @@ h3 {
 
 p {
     @include text-format(16, 26, 400);
+    margin-top: toRem(16);
     letter-spacing: toRem(0.12);
     color: $primary-text-color;
 }

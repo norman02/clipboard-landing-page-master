@@ -6,13 +6,15 @@
 @import 'base/typography';
 
 @import 'components/buttons';
+@import 'components/cards';
+@import 'components/cta';
 
 @import 'layouts/header';
 @import 'layouts/footer';
 
-main {
-    display: none;
-}
+@import 'pages/home';
+
+
 
 
 
