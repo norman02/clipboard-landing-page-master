@@ -2,9 +2,23 @@
     margin: 0 $mobile-margin;
     display: flex;
     flex-direction: column;
+    
+    @include media-md {
+        margin: 0 auto;
+        flex-direction: row;
+        justify-content: space-between;
+        width: toRem(500);
+    }
+
+    
 
     .btn {
         width: 100%;
         margin-bottom: toRem(24);
+
+        @include media-md {
+            margin: 0;
+            width: toRem(237);
+        }
     }
 }
