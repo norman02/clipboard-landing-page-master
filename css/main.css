@@ -142,6 +142,8 @@ a {
 
 .cta {
   margin: 0 8.53%;
+  display: flex;
+  flex-direction: column;
 }
 
 .cta .btn {

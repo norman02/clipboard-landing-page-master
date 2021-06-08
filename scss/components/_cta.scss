@@ -1,5 +1,7 @@
 .cta {
     margin: 0 $mobile-margin;
+    display: flex;
+    flex-direction: column;
 
     .btn {
         width: 100%;
