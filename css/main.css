@@ -66,6 +66,12 @@ h1, h2, h3, p {
   margin: 0 8.53%;
 }
 
+@media screen and (min-width: 1200px) {
+  h1, h2, h3, p {
+    margin: 0;
+  }
+}
+
 h1 {
   font-size: 2rem;
   line-height: 2.5rem;
@@ -73,11 +79,29 @@ h1 {
   letter-spacing: -0.0325rem;
 }
 
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 2.875rem;
+    line-height: 3.625rem;
+    font-weight: 600;
+    letter-spacing: -0.04688rem;
+  }
+}
+
 h2 {
   font-size: 1.75rem;
   line-height: 2.1875rem;
   font-weight: 600;
   letter-spacing: -0.02875rem;
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
+    font-size: 2.25rem;
+    line-height: 2.8125rem;
+    font-weight: 600;
+    letter-spacing: -0.03687rem;
+  }
 }
 
 h3 {
@@ -94,6 +118,18 @@ p {
   margin-top: 1rem;
   letter-spacing: 0.0075rem;
   color: #9fabb2;
+}
+
+@media screen and (min-width: 1200px) {
+  p {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    font-weight: 400;
+    letter-spacing: 0.00937rem;
+    max-width: 45.625rem;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 a {
@@ -159,7 +195,7 @@ header .img-cont {
   height: 23.4375rem;
   background-image: url("../images/bg-header-mobile.png");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 header h1 {
