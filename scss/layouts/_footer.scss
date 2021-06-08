@@ -1,0 +1,43 @@
+footer {
+    background-color: hsla(201, 11%, 66%, 0.1);
+    margin-top: toRem(170);
+    padding-bottom: toRem(53.25);
+
+    .logo {
+        margin-top: toRem(52);
+        width: toRem(55);
+    }
+
+    ul {
+        margin-top: toRem(40);
+
+        li {
+            margin-bottom: toRem(27);
+
+            a {
+                @include text-format(18, 30, 400);
+                color: $heading-text-color;
+
+                &:hover {
+                    color: $green-blue;
+                }
+            }
+        }
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        max-width: toRem(160);
+        margin: toRem(57.25) auto 0 auto;
+
+        .icon {
+            fill: $dk-grey-blue;
+
+            &:hover {
+                fill: $green-blue;
+            }
+        }
+    }
+
+}
