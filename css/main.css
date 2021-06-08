@@ -290,24 +290,9 @@ footer .social .icon:hover {
     grid-template-areas: 'A B' 'C D';
     align-items: center;
   }
-  .grid--2--a {
-    grid-area: A;
-  }
-  .grid--2--b {
-    grid-area: B;
-  }
-  .grid--2--c {
-    grid-area: C;
-  }
-  .grid--2--d {
-    grid-area: D;
-  }
 }
 
 @media screen and (min-width: 1200px) {
-  .grid {
-    position: relative;
-  }
   .grid--2 {
     grid-template-areas: 'A .' 'A B' 'A C' 'A D' 'A .';
     column-gap: 6.875rem;
@@ -322,25 +307,29 @@ footer .social .icon:hover {
     text-align: left;
     max-width: 21.875rem;
   }
-  .grid--2--a {
-    grid-area: A;
-  }
-  .grid--2--b {
-    grid-area: B;
-  }
-  .grid--2--c {
-    grid-area: C;
-  }
-  .grid--2--d {
-    grid-area: D;
-  }
 }
 
 @media screen and (min-width: 1800px) {
-  .grid--2 {
+  .grid--2--2 {
     max-width: 1600px;
     margin: 0 auto;
   }
+}
+
+.grid--2--a {
+  grid-area: A;
+}
+
+.grid--2--b {
+  grid-area: B;
+}
+
+.grid--2--c {
+  grid-area: C;
+}
+
+.grid--2--d {
+  grid-area: D;
 }
 
 .home {

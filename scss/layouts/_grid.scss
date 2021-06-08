@@ -1,43 +1,16 @@
 .grid {
+    &--2 {
 
-    @include media-md {
-
-        &--2 {
+        @include media-md {
             display: grid;
             grid-template-columns: auto auto;
             grid-template-areas: 'A B' 'C D';
             align-items: center;
-    
-            &--a {
-               grid-area: A; 
-            }
-    
-            &--b {
-                grid-area: B;
-            }
-    
-            &--c {
-                grid-area: C;
-            }
-    
-            &--d {
-                grid-area: D;
-            }
         }
 
-    }
-
-    @include media-lg {
-
-        position: relative;
-
-        &--2 {
+        @include media-lg {
             grid-template-areas: 'A .' 'A B' 'A C' 'A D' 'A .';
             column-gap: toRem(110);
-
-            @include media-lg {
-                
-            }
 
             h3 {
                 margin: 0;
@@ -50,31 +23,32 @@
                 text-align: left;
                 max-width: toRem(350);
             }
-    
-            &--a {
-               grid-area: A; 
+
             }
-    
-            &--b {
-                grid-area: B;
-            }
-    
-            &--c {
-                grid-area: C;
-            }
-    
-            &--d {
-                grid-area: D;
+
+        @include media-xl {
+            &--2 {
+                max-width: 1600px;
+                margin: 0 auto;
             }
         }
+        
 
-    }
+        &--a {
+           grid-area: A; 
+        }
 
-    @include media-xl {
-        &--2 {
-            max-width: 1600px;
-            margin: 0 auto;
+        &--b {
+            grid-area: B;
+        }
+
+        &--c {
+            grid-area: C;
+        }
+
+        &--d {
+            grid-area: D;
         }
     }
-    
+   
 }
