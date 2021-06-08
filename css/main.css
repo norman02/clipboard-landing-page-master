@@ -108,6 +108,7 @@ a {
   font-size: 1.125rem;
   line-height: 1.875rem;
   font-weight: 600;
+  transition: 0.8s;
   letter-spacing: 0.5px;
   display: inline-block;
   color: white;
@@ -115,6 +116,10 @@ a {
   padding-top: 0.8125rem;
   padding-bottom: 1.25rem;
   border-radius: 28px;
+}
+
+.btn:hover {
+  opacity: 0.25;
 }
 
 .btn--green {
@@ -178,6 +183,7 @@ footer ul li a {
   font-size: 1.125rem;
   line-height: 1.875rem;
   font-weight: 400;
+  transition: 0.8s;
   color: #4c545d;
 }
 
@@ -193,6 +199,7 @@ footer .social {
 }
 
 footer .social .icon {
+  transition: 0.8s;
   fill: #4c545d;
 }
 

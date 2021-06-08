@@ -1,5 +1,6 @@
 .btn {
     @include text-format(18, 30, 600);
+    @include transition-ease;
     letter-spacing: 0.5px;
     display: inline-block;
     color: white;
@@ -7,6 +8,10 @@
     padding-top: toRem(13);
     padding-bottom: toRem(20);
     border-radius: 28px;
+
+    &:hover {
+        opacity: 0.25;
+    }
 
     &--green {
         background: $green-blue 0% 0% no-repeat padding-box;

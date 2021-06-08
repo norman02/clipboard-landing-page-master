@@ -16,6 +16,7 @@ footer {
 
             a {
                 @include text-format(18, 30, 400);
+                @include transition-ease;
                 color: $heading-text-color;
 
                 &:hover {
@@ -32,6 +33,7 @@ footer {
         margin: toRem(57.25) auto 0 auto;
 
         .icon {
+            @include transition-ease;
             fill: $dk-grey-blue;
 
             &:hover {
