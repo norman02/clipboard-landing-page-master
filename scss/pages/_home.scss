@@ -71,6 +71,12 @@
                 justify-content: space-evenly;
             }
 
+            @include media-xl {
+                max-width: 1600px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
             .card {
                 margin-top: toRem(62);
 
