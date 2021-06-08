@@ -1,2 +1,14 @@
-$heading-text-color: hsla(210, 10%, 33%, 1);
-$primary-text-color: hsla(201, 11%, 66%, 1);
+$green-blue: hsla(171, 66%, 44%, 1);
+$dk-green-blue: hsla(160, 64%, 72%, 0.5);
+
+$lt-blue: hsla(233, 100%, 69%, 1);
+
+$lt-grey-blue: hsla(201, 11%, 66%, 1);
+$dk-grey-blue: hsla(210, 10%, 33%, 1);
+
+$smoke: hsla(0, 0%, 0%, 0.1);
+
+$heading-text-color: $dk-grey-blue;
+$primary-text-color: $lt-grey-blue;
+
+$mobile-margin: 8.53%;

@@ -9,12 +9,12 @@
     border-radius: 28px;
 
     &--green {
-        background: hsla(171, 66%, 44%, 1) 0% 0% no-repeat padding-box;
-        box-shadow: 0px 10px 20px hsla(160, 64%, 72%, 0.5);
+        background: $green-blue 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 20px $dk-green-blue;
     }
 
     &--blue {
-        background: hsla(233, 100%, 69%, 1) 0% 0% no-repeat padding-box;
-        box-shadow: 0px 10px 20px hsla(0, 0%, 0%, 0.1);
+        background: $lt-blue 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 20px $smoke;
     }
 }
