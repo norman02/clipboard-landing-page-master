@@ -35,6 +35,10 @@
     &--two {
         margin-top: toRem(192);
 
+        @include media-lg {
+            margin-top: toRem(150);
+        }
+
         .img {
             margin: toRem(70.72) auto toRem(130.72) auto;
             width: toRem(310.83);
@@ -42,25 +46,44 @@
             background-image: url('../images/image-devices.png');
             background-size: cover;
             background-repeat: no-repeat;
+
+            @include media-md {
+                width: toRem(525);
+                height: toRem(292.65);
+            }
+
+            @include media-lg {
+                width: toRem(811.56);
+                height: toRem(475);
+            }
         }
+
+        
     }
 
     &--three {
         .cards {
             margin-top: toRem(108.86);
+            
+
+            @include media-lg {
+                display: flex;
+                justify-content: space-evenly;
+            }
 
             .card {
-                margin-bottom: toRem(62);
+                margin-top: toRem(62);
+
+                @include media-lg {
+                    margin: 0;
+                }
             }
         }
     }
 
     &--four {
         margin-top: toRem(76);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
 
         img {
             margin:0 auto toRem(56) auto;

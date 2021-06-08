@@ -4,6 +4,8 @@
     }
 
     p {
-        margin-top: toRem(18);
+        @include text-format(16, 30, 400);
+        max-width: toRem(350);
+        margin: toRem(18) auto 0 auto;
     }
 }
